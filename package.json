@@ -24,7 +24,7 @@
   "devDependencies": {
     "@remix-run/dev": "^2.9.1",
     "@rollup/plugin-alias": "^5.1.0",
-    "@stylistic/eslint-plugin": "^1.8.0",
+    "@stylistic/eslint-plugin": "^1.8.1",
     "@stylistic/eslint-plugin-js": "^1.8.0",
     "@stylistic/eslint-plugin-plus": "^1.8.0",
     "@stylistic/eslint-plugin-ts": "^1.8.0",
