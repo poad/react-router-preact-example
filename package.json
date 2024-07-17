@@ -16,13 +16,13 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@remix-run/node": "^2.10.2",
-    "@remix-run/react": "^2.10.2",
+    "@remix-run/node": "^2.10.3",
+    "@remix-run/react": "^2.10.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@remix-run/dev": "^2.10.2",
+    "@remix-run/dev": "^2.10.3",
     "@rollup/plugin-alias": "^5.1.0",
     "@stylistic/eslint-plugin": "^2.3.0",
     "@stylistic/eslint-plugin-js": "^2.3.0",
@@ -39,8 +39,8 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "prettier": "^3.3.3",
     "typescript": "^5.5.3",
-    "typescript-eslint": "^7.16.0",
-    "vite": "^5.3.3",
+    "typescript-eslint": "^7.16.1",
+    "vite": "^5.3.4",
     "vite-tsconfig-paths": "^4.3.2"
   },
   "engines": {
