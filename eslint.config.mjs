@@ -6,10 +6,10 @@ import stylisticTs from '@stylistic/eslint-plugin-ts';
 import stylisticJsx from '@stylistic/eslint-plugin-jsx';
 import reactHooksPlugin from 'eslint-plugin-react-hooks';
 import jsxA11yPlugin from 'eslint-plugin-jsx-a11y';
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import importPlugin from 'eslint-plugin-import';
 
-import prettier from 'eslint-config-prettier';
 import tseslint from 'typescript-eslint';
 import { FlatCompat } from '@eslint/eslintrc';
 
@@ -39,21 +39,18 @@ export default tseslint.config(
       '@stylistic': stylistic,
       '@stylistic/ts': stylisticTs,
       '@stylistic/jsx': stylisticJsx,
-    },
-    rules: {
-      '@stylistic/semi': 'error',
-      '@stylistic/ts/indent': ['error', 2],
-      '@stylistic/jsx/jsx-indent': ['error', 2],
-    },
-  },
-  {
-    files: ['app/**/*.{jsx,tsx}'],
-    plugins: {
-      ['jsx-a11y']: jsxA11yPlugin,
+      'jsx-a11y': jsxA11yPlugin,
+      import: importPlugin,
     },
     extends: [
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-ignore
       ...compat.config(reactHooksPlugin.configs.recommended),
       ...compat.config(jsxA11yPlugin.configs.recommended),
+      ...tseslint.configs.strict,
+      ...tseslint.configs.stylistic,
+      ...compat.config(importPlugin.configs.recommended),
+      ...compat.config(importPlugin.configs.typescript),
     ],
     settings: {
       react: {
@@ -64,22 +61,6 @@ export default tseslint.config(
         { name: 'Link', linkAttribute: 'to' },
         { name: 'NavLink', linkAttribute: 'to' },
       ],
-      'import/resolver': {
-        typescript: {},
-      },
-    },
-  },
-  {
-    files: ['app/**/*.{ts,tsx}'],
-    plugins: {
-      import: importPlugin,
-    },
-    extends: [
-      ...tseslint.configs.recommended,
-      ...compat.config(importPlugin.configs.recommended),
-      ...compat.config(importPlugin.configs.typescript),
-    ],
-    settings: {
       'import/internal-regex': '^~/',
       'import/resolver': {
         node: {
@@ -90,20 +71,18 @@ export default tseslint.config(
         },
       },
     },
-  },
-  {
-    files: ['app/**/*.{js,jsx,ts,tsx}'],
-    // @ts-ignore
     rules: {
-      ...prettier.rules,
-    },
-  },
-  {
-    rules: {
+      '@stylistic/semi': 'error',
+      '@stylistic/ts/indent': ['error', 2],
+      '@stylistic/jsx/jsx-indent': ['error', 2],
       'react/display-name': 'off',
       'import/namespace': 'off',
       'import/no-named-as-default': 'off',
       'import/no-named-as-default-member': 'off',
+      'comma-dangle': ['error', 'always-multiline'],
+      'semi': ['error', 'always'],
+      'quotes': ['error', 'single'],
+      'indent': ['error', 2],
     },
   },
 );
