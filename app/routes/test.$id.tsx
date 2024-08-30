@@ -2,7 +2,7 @@ import {
   ClientLoaderFunctionArgs,
   Outlet,
   useLoaderData,
-} from "@remix-run/react";
+} from '@remix-run/react';
 
 export async function clientLoader({
   params: { id },
