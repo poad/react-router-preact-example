@@ -12,13 +12,13 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@remix-run/node": "^2.15.1",
-    "@remix-run/react": "^2.15.1",
+    "@remix-run/node": "^2.15.2",
+    "@remix-run/react": "^2.15.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@remix-run/dev": "^2.15.1",
+    "@remix-run/dev": "^2.15.2",
     "@rollup/plugin-alias": "^5.1.1",
     "@stylistic/eslint-plugin": "^2.12.1",
     "@stylistic/eslint-plugin-js": "^2.12.1",
