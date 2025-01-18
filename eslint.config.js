@@ -13,22 +13,18 @@ import importPlugin from 'eslint-plugin-import';
 import tseslint from 'typescript-eslint';
 import { FlatCompat } from '@eslint/eslintrc';
 
+import { includeIgnoreFile } from '@eslint/compat';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const gitignorePath = path.resolve(__dirname, './.gitignore');
+
 const compat = new FlatCompat();
 
 export default tseslint.config(
-  {
-    ignores: [
-      '**/*.d.ts',
-      '*.{js,jsx}',
-      'app/tsconfig.json',
-      'app/stories',
-      '**/*.css',
-      'node_modules/**/*',
-      './.next/*',
-      'out',
-      '.storybook',
-    ],
-  },
+  includeIgnoreFile(gitignorePath),
   {
     files: ['app/**/*.{jsx,ts,tsx}'],
   },
