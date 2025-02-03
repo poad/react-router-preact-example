@@ -12,18 +12,18 @@
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
-    "@react-router/node": "^7.1.4",
+    "@react-router/node": "^7.1.5",
     "isbot": "^5.1.22",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router": "^7.1.4"
+    "react-router": "^7.1.5"
   },
   "devDependencies": {
-    "@eslint/compat": "^1.2.5",
+    "@eslint/compat": "^1.2.6",
     "@eslint/eslintrc": "^3.2.0",
     "@eslint/js": "^9.19.0",
-    "@react-router/dev": "^7.1.4",
-    "@react-router/fs-routes": "^7.1.4",
+    "@react-router/dev": "^7.1.5",
+    "@react-router/fs-routes": "^7.1.5",
     "@rollup/plugin-alias": "^5.1.1",
     "@stylistic/eslint-plugin": "^3.0.1",
     "@stylistic/eslint-plugin-js": "^3.0.1",
