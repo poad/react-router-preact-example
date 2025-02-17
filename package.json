@@ -14,14 +14,17 @@
   "dependencies": {
     "@react-router/node": "^7.1.5",
     "isbot": "^5.1.22",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "preact": "^10.26.0",
+    "preact-render-to-string": "^6.5.13",
+    "react": "npm:@preact/compat@^18.3.1",
+    "react-dom": "npm:@preact/compat@^18.3.1",
     "react-router": "^7.1.5"
   },
   "devDependencies": {
     "@eslint/compat": "^1.2.6",
     "@eslint/eslintrc": "^3.2.0",
     "@eslint/js": "^9.20.0",
+    "@preact/preset-vite": "^2.10.1",
     "@react-router/dev": "^7.1.5",
     "@react-router/fs-routes": "^7.1.5",
     "@rollup/plugin-alias": "^5.1.1",
@@ -33,7 +36,7 @@
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "eslint": "^9.20.1",
-    "eslint-import-resolver-typescript": "^3.8.0",
+    "eslint-import-resolver-typescript": "^3.8.1",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.4",
@@ -41,12 +44,12 @@
     "pnpm": "^10.4.1",
     "serve": "^14.2.4",
     "typescript": "^5.7.3",
-    "typescript-eslint": "^8.24.0",
+    "typescript-eslint": "^8.24.1",
     "vite": "^6.1.0",
     "vite-tsconfig-paths": "^5.1.4"
   },
   "engines": {
     "node": ">=22.0.0"
   },
-  "packageManager": "pnpm@10.0.0+sha512.b8fef5494bd3fe4cbd4edabd0745df2ee5be3e4b0b8b08fa643aa3e4c6702ccc0f00d68fa8a8c9858a735a0032485a44990ed2810526c875e416f001b17df12b"
+  "packageManager": "pnpm@10.4.1"
 }
