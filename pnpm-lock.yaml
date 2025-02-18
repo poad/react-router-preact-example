@@ -10,25 +10,25 @@ importers:
     dependencies:
       '@react-router/node':
         specifier: ^7.1.5
-        version: 7.1.5(react-router@7.1.5(@preact/compat@18.3.1(preact@10.26.0))(@preact/compat@18.3.1(preact@10.26.0)))(typescript@5.7.3)
+        version: 7.1.5(react-router@7.1.5(@preact/compat@18.3.1(preact@10.26.2))(@preact/compat@18.3.1(preact@10.26.2)))(typescript@5.7.3)
       isbot:
         specifier: ^5.1.22
         version: 5.1.22
       preact:
-        specifier: ^10.26.0
-        version: 10.26.0
+        specifier: ^10.26.2
+        version: 10.26.2
       preact-render-to-string:
         specifier: ^6.5.13
-        version: 6.5.13(preact@10.26.0)
+        version: 6.5.13(preact@10.26.2)
       react:
         specifier: npm:@preact/compat@^18.3.1
-        version: '@preact/compat@18.3.1(preact@10.26.0)'
+        version: '@preact/compat@18.3.1(preact@10.26.2)'
       react-dom:
         specifier: npm:@preact/compat@^18.3.1
-        version: '@preact/compat@18.3.1(preact@10.26.0)'
+        version: '@preact/compat@18.3.1(preact@10.26.2)'
       react-router:
         specifier: ^7.1.5
-        version: 7.1.5(@preact/compat@18.3.1(preact@10.26.0))(@preact/compat@18.3.1(preact@10.26.0))
+        version: 7.1.5(@preact/compat@18.3.1(preact@10.26.2))(@preact/compat@18.3.1(preact@10.26.2))
     devDependencies:
       '@eslint/compat':
         specifier: ^1.2.6
@@ -41,31 +41,31 @@ importers:
         version: 9.20.0
       '@preact/preset-vite':
         specifier: ^2.10.1
-        version: 2.10.1(@babel/core@7.26.9)(preact@10.26.0)(vite@6.1.0(@types/node@22.10.7)(yaml@2.7.0))
+        version: 2.10.1(@babel/core@7.26.9)(preact@10.26.2)(vite@6.1.0(@types/node@22.10.7)(yaml@2.7.0))
       '@react-router/dev':
         specifier: ^7.1.5
-        version: 7.1.5(@types/node@22.10.7)(react-router@7.1.5(@preact/compat@18.3.1(preact@10.26.0))(@preact/compat@18.3.1(preact@10.26.0)))(typescript@5.7.3)(vite@6.1.0(@types/node@22.10.7)(yaml@2.7.0))(yaml@2.7.0)
+        version: 7.1.5(@types/node@22.10.7)(react-router@7.1.5(@preact/compat@18.3.1(preact@10.26.2))(@preact/compat@18.3.1(preact@10.26.2)))(typescript@5.7.3)(vite@6.1.0(@types/node@22.10.7)(yaml@2.7.0))(yaml@2.7.0)
       '@react-router/fs-routes':
         specifier: ^7.1.5
-        version: 7.1.5(@react-router/dev@7.1.5(@types/node@22.10.7)(react-router@7.1.5(@preact/compat@18.3.1(preact@10.26.0))(@preact/compat@18.3.1(preact@10.26.0)))(typescript@5.7.3)(vite@6.1.0(@types/node@22.10.7)(yaml@2.7.0))(yaml@2.7.0))(typescript@5.7.3)
+        version: 7.1.5(@react-router/dev@7.1.5(@types/node@22.10.7)(react-router@7.1.5(@preact/compat@18.3.1(preact@10.26.2))(@preact/compat@18.3.1(preact@10.26.2)))(typescript@5.7.3)(vite@6.1.0(@types/node@22.10.7)(yaml@2.7.0))(yaml@2.7.0))(typescript@5.7.3)
       '@rollup/plugin-alias':
         specifier: ^5.1.1
         version: 5.1.1(rollup@4.34.8)
       '@stylistic/eslint-plugin':
-        specifier: ^3.1.0
-        version: 3.1.0(eslint@9.20.1)(typescript@5.7.3)
+        specifier: ^4.0.0
+        version: 4.0.0(eslint@9.20.1)(typescript@5.7.3)
       '@stylistic/eslint-plugin-js':
-        specifier: ^3.1.0
-        version: 3.1.0(eslint@9.20.1)
+        specifier: ^4.0.0
+        version: 4.0.0(eslint@9.20.1)
       '@stylistic/eslint-plugin-jsx':
-        specifier: ^3.1.0
-        version: 3.1.0(eslint@9.20.1)
+        specifier: ^4.0.0
+        version: 4.0.0(eslint@9.20.1)
       '@stylistic/eslint-plugin-plus':
-        specifier: ^3.1.0
-        version: 3.1.0(eslint@9.20.1)
+        specifier: ^4.0.0
+        version: 4.0.0(eslint@9.20.1)
       '@stylistic/eslint-plugin-ts':
-        specifier: ^3.1.0
-        version: 3.1.0(eslint@9.20.1)(typescript@5.7.3)
+        specifier: ^4.0.0
+        version: 4.0.0(eslint@9.20.1)(typescript@5.7.3)
       '@types/react':
         specifier: ^19.0.10
         version: 19.0.10
@@ -709,34 +709,34 @@ packages:
   '@rtsao/scc@1.1.0':
     resolution: {integrity: sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==}
 
-  '@stylistic/eslint-plugin-js@3.1.0':
-    resolution: {integrity: sha512-lQktsOiCr8S6StG29C5fzXYxLOD6ID1rp4j6TRS+E/qY1xd59Fm7dy5qm9UauJIEoSTlYx6yGsCHYh5UkgXPyg==}
+  '@stylistic/eslint-plugin-js@4.0.0':
+    resolution: {integrity: sha512-KfA3MdW8rzqhK5zyQdBhtmSSqHGr6AIau9qwlAlOGefSVoxHUEXSVxA4dX7dwxOl+4b61sfHDouid69Tz+Lrmw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
-      eslint: '>=8.40.0'
+      eslint: '>=9.0.0'
 
-  '@stylistic/eslint-plugin-jsx@3.1.0':
-    resolution: {integrity: sha512-+4SYALAM+l6OH6ARGUJ5h0coQBq7Y1QQVS8JbVFPZWuxdXVLTTwpj8qCnpW0afzyS/sBu4MaPDdGnGL16KebAQ==}
+  '@stylistic/eslint-plugin-jsx@4.0.0':
+    resolution: {integrity: sha512-HyTNI/Jz1OTv9pMYnHwYU+QAd+ndoR4VYc2Eb5QJpP2gLtIurNQ1m/BaNP8Sx5FI+3NPDBJFaGXbtjWiAzfmCg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
-      eslint: '>=8.40.0'
+      eslint: '>=9.0.0'
 
-  '@stylistic/eslint-plugin-plus@3.1.0':
-    resolution: {integrity: sha512-WKILlyHJdCETro3bBIDhrl9osCJupk6PL0dK/w66RJDJG2umdIE+tLJ6k0MqY7/HLiju9xeM3vCadnct7+f6Sw==}
+  '@stylistic/eslint-plugin-plus@4.0.0':
+    resolution: {integrity: sha512-jRzbiQXpTnG8r4SkRdaen6f82z1U4edcbiyrMdqbRFGUnAv+K8wuonsi7RTnYfyNPv8Yt1VEUMm3cMTXX142cg==}
     peerDependencies:
-      eslint: '*'
+      eslint: '>=9.0.0'
 
-  '@stylistic/eslint-plugin-ts@3.1.0':
-    resolution: {integrity: sha512-ExsbaLmPTt3Y9bWN64nw+hpsnLAScLH25ncPxrV16FG2Lvg5wn6aRfMqldUGpu+YdqVmFFU1zehgFh6RIHT6YA==}
+  '@stylistic/eslint-plugin-ts@4.0.0':
+    resolution: {integrity: sha512-lbjrQ6jZQuOBBdrJvwcqBtRCt9Z5gOJkaD75KuxffHQUbGl9WIZN6YsqlBgbpkLaQ0XcO8zuK/QNxMjh6sTpgA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
-      eslint: '>=8.40.0'
+      eslint: '>=9.0.0'
 
-  '@stylistic/eslint-plugin@3.1.0':
-    resolution: {integrity: sha512-pA6VOrOqk0+S8toJYhQGv2MWpQQR0QpeUo9AhNkC49Y26nxBQ/nH1rta9bUU1rPw2fJ1zZEMV5oCX5AazT7J2g==}
+  '@stylistic/eslint-plugin@4.0.0':
+    resolution: {integrity: sha512-3US6mWvUrb7xrKs5TR6Ak3Mw8ghSu8gx/lOOkqxUWm1Bw89A9N6PsOUFd4N7aVmlr4VugOqgOdHfBKyt3BsEig==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
-      eslint: '>=8.40.0'
+      eslint: '>=9.0.0'
 
   '@types/cookie@0.6.0':
     resolution: {integrity: sha512-4Kh9a6B2bQciAhf7FSuMRRkUWecJgJu9nPnx3yzpsfXX/c50REIqpHY4C82bXP90qrLtXtkDxTZosYO3UpOwlA==}
@@ -1373,8 +1373,8 @@ packages:
     resolution: {integrity: sha512-f7ccFPK3SXFHpx15UIGyRJ/FJQctuKZ0zVuN3frBo4HnK3cay9VEW0R6yPYFHC0AgqhukPzKjq22t5DmAyqGyw==}
     engines: {node: '>=16'}
 
-  flatted@3.3.2:
-    resolution: {integrity: sha512-AiwGJM8YcNOaobumgtng+6NHuOqC3A7MixFeDafM3X9cIUM+xUXoS5Vfgf+OihAYe20fxqNM9yPBXJzRtZ/4eA==}
+  flatted@3.3.3:
+    resolution: {integrity: sha512-GX+ysw4PBCz0PzosHDepZGANEuFCMLrnRTiEy9McGjmkCQYwRq4A/X786G/fjM/+OjsWSU1ZrY5qyARZmO/uwg==}
 
   for-each@0.3.5:
     resolution: {integrity: sha512-dKx12eRCVIzqCxFGplyFKJMPvLEWgmNtUrpTiJIR5u97zEhRG8ySrtboPHZXx7daLxQVrl643cTzbab2tkQjxg==}
@@ -1992,8 +1992,8 @@ packages:
     peerDependencies:
       preact: '>=10'
 
-  preact@10.26.0:
-    resolution: {integrity: sha512-6ugi/Mb7lyV5RA6KlnijFyDLMU253i7L0RRiObIzDoqj59KT9iTeNJbA/YGw6M7jP4vxaab0DOA8DgodTOA6EQ==}
+  preact@10.26.2:
+    resolution: {integrity: sha512-0gNmv4qpS9HaN3+40CLBAnKe0ZfyE4ZWo5xKlC1rVrr0ckkEvJvAQqKaHANdFKsGstoxrY4AItZ7kZSGVoVjgg==}
 
   prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
@@ -2977,16 +2977,16 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@preact/compat@18.3.1(preact@10.26.0)':
+  '@preact/compat@18.3.1(preact@10.26.2)':
     dependencies:
-      preact: 10.26.0
+      preact: 10.26.2
 
-  '@preact/preset-vite@2.10.1(@babel/core@7.26.9)(preact@10.26.0)(vite@6.1.0(@types/node@22.10.7)(yaml@2.7.0))':
+  '@preact/preset-vite@2.10.1(@babel/core@7.26.9)(preact@10.26.2)(vite@6.1.0(@types/node@22.10.7)(yaml@2.7.0))':
     dependencies:
       '@babel/core': 7.26.9
       '@babel/plugin-transform-react-jsx': 7.25.9(@babel/core@7.26.9)
       '@babel/plugin-transform-react-jsx-development': 7.25.9(@babel/core@7.26.9)
-      '@prefresh/vite': 2.4.7(preact@10.26.0)(vite@6.1.0(@types/node@22.10.7)(yaml@2.7.0))
+      '@prefresh/vite': 2.4.7(preact@10.26.2)(vite@6.1.0(@types/node@22.10.7)(yaml@2.7.0))
       '@rollup/pluginutils': 4.2.1
       babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.26.9)
       debug: 4.4.0
@@ -2999,25 +2999,25 @@ snapshots:
 
   '@prefresh/babel-plugin@0.5.1': {}
 
-  '@prefresh/core@1.5.3(preact@10.26.0)':
+  '@prefresh/core@1.5.3(preact@10.26.2)':
     dependencies:
-      preact: 10.26.0
+      preact: 10.26.2
 
   '@prefresh/utils@1.2.0': {}
 
-  '@prefresh/vite@2.4.7(preact@10.26.0)(vite@6.1.0(@types/node@22.10.7)(yaml@2.7.0))':
+  '@prefresh/vite@2.4.7(preact@10.26.2)(vite@6.1.0(@types/node@22.10.7)(yaml@2.7.0))':
     dependencies:
       '@babel/core': 7.26.9
       '@prefresh/babel-plugin': 0.5.1
-      '@prefresh/core': 1.5.3(preact@10.26.0)
+      '@prefresh/core': 1.5.3(preact@10.26.2)
       '@prefresh/utils': 1.2.0
       '@rollup/pluginutils': 4.2.1
-      preact: 10.26.0
+      preact: 10.26.2
       vite: 6.1.0(@types/node@22.10.7)(yaml@2.7.0)
     transitivePeerDependencies:
       - supports-color
 
-  '@react-router/dev@7.1.5(@types/node@22.10.7)(react-router@7.1.5(@preact/compat@18.3.1(preact@10.26.0))(@preact/compat@18.3.1(preact@10.26.0)))(typescript@5.7.3)(vite@6.1.0(@types/node@22.10.7)(yaml@2.7.0))(yaml@2.7.0)':
+  '@react-router/dev@7.1.5(@types/node@22.10.7)(react-router@7.1.5(@preact/compat@18.3.1(preact@10.26.2))(@preact/compat@18.3.1(preact@10.26.2)))(typescript@5.7.3)(vite@6.1.0(@types/node@22.10.7)(yaml@2.7.0))(yaml@2.7.0)':
     dependencies:
       '@babel/core': 7.26.9
       '@babel/generator': 7.26.9
@@ -3028,7 +3028,7 @@ snapshots:
       '@babel/traverse': 7.26.9
       '@babel/types': 7.26.9
       '@npmcli/package-json': 4.0.1
-      '@react-router/node': 7.1.5(react-router@7.1.5(@preact/compat@18.3.1(preact@10.26.0))(@preact/compat@18.3.1(preact@10.26.0)))(typescript@5.7.3)
+      '@react-router/node': 7.1.5(react-router@7.1.5(@preact/compat@18.3.1(preact@10.26.2))(@preact/compat@18.3.1(preact@10.26.2)))(typescript@5.7.3)
       arg: 5.0.2
       babel-dead-code-elimination: 1.0.9
       chokidar: 4.0.3
@@ -3044,7 +3044,7 @@ snapshots:
       picomatch: 2.3.1
       prettier: 2.8.8
       react-refresh: 0.14.2
-      react-router: 7.1.5(@preact/compat@18.3.1(preact@10.26.0))(@preact/compat@18.3.1(preact@10.26.0))
+      react-router: 7.1.5(@preact/compat@18.3.1(preact@10.26.2))(@preact/compat@18.3.1(preact@10.26.2))
       semver: 7.7.1
       set-cookie-parser: 2.7.1
       valibot: 0.41.0(typescript@5.7.3)
@@ -3068,17 +3068,17 @@ snapshots:
       - tsx
       - yaml
 
-  '@react-router/fs-routes@7.1.5(@react-router/dev@7.1.5(@types/node@22.10.7)(react-router@7.1.5(@preact/compat@18.3.1(preact@10.26.0))(@preact/compat@18.3.1(preact@10.26.0)))(typescript@5.7.3)(vite@6.1.0(@types/node@22.10.7)(yaml@2.7.0))(yaml@2.7.0))(typescript@5.7.3)':
+  '@react-router/fs-routes@7.1.5(@react-router/dev@7.1.5(@types/node@22.10.7)(react-router@7.1.5(@preact/compat@18.3.1(preact@10.26.2))(@preact/compat@18.3.1(preact@10.26.2)))(typescript@5.7.3)(vite@6.1.0(@types/node@22.10.7)(yaml@2.7.0))(yaml@2.7.0))(typescript@5.7.3)':
     dependencies:
-      '@react-router/dev': 7.1.5(@types/node@22.10.7)(react-router@7.1.5(@preact/compat@18.3.1(preact@10.26.0))(@preact/compat@18.3.1(preact@10.26.0)))(typescript@5.7.3)(vite@6.1.0(@types/node@22.10.7)(yaml@2.7.0))(yaml@2.7.0)
+      '@react-router/dev': 7.1.5(@types/node@22.10.7)(react-router@7.1.5(@preact/compat@18.3.1(preact@10.26.2))(@preact/compat@18.3.1(preact@10.26.2)))(typescript@5.7.3)(vite@6.1.0(@types/node@22.10.7)(yaml@2.7.0))(yaml@2.7.0)
       minimatch: 9.0.5
     optionalDependencies:
       typescript: 5.7.3
 
-  '@react-router/node@7.1.5(react-router@7.1.5(@preact/compat@18.3.1(preact@10.26.0))(@preact/compat@18.3.1(preact@10.26.0)))(typescript@5.7.3)':
+  '@react-router/node@7.1.5(react-router@7.1.5(@preact/compat@18.3.1(preact@10.26.2))(@preact/compat@18.3.1(preact@10.26.2)))(typescript@5.7.3)':
     dependencies:
       '@mjackson/node-fetch-server': 0.2.0
-      react-router: 7.1.5(@preact/compat@18.3.1(preact@10.26.0))(@preact/compat@18.3.1(preact@10.26.0))
+      react-router: 7.1.5(@preact/compat@18.3.1(preact@10.26.2))(@preact/compat@18.3.1(preact@10.26.2))
       source-map-support: 0.5.21
       stream-slice: 0.1.2
       undici: 6.21.1
@@ -3153,13 +3153,13 @@ snapshots:
 
   '@rtsao/scc@1.1.0': {}
 
-  '@stylistic/eslint-plugin-js@3.1.0(eslint@9.20.1)':
+  '@stylistic/eslint-plugin-js@4.0.0(eslint@9.20.1)':
     dependencies:
       eslint: 9.20.1
       eslint-visitor-keys: 4.2.0
       espree: 10.3.0
 
-  '@stylistic/eslint-plugin-jsx@3.1.0(eslint@9.20.1)':
+  '@stylistic/eslint-plugin-jsx@4.0.0(eslint@9.20.1)':
     dependencies:
       eslint: 9.20.1
       eslint-visitor-keys: 4.2.0
@@ -3167,13 +3167,13 @@ snapshots:
       estraverse: 5.3.0
       picomatch: 4.0.2
 
-  '@stylistic/eslint-plugin-plus@3.1.0(eslint@9.20.1)':
+  '@stylistic/eslint-plugin-plus@4.0.0(eslint@9.20.1)':
     dependencies:
       eslint: 9.20.1
       eslint-visitor-keys: 4.2.0
       espree: 10.3.0
 
-  '@stylistic/eslint-plugin-ts@3.1.0(eslint@9.20.1)(typescript@5.7.3)':
+  '@stylistic/eslint-plugin-ts@4.0.0(eslint@9.20.1)(typescript@5.7.3)':
     dependencies:
       '@typescript-eslint/utils': 8.24.1(eslint@9.20.1)(typescript@5.7.3)
       eslint: 9.20.1
@@ -3183,7 +3183,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@stylistic/eslint-plugin@3.1.0(eslint@9.20.1)(typescript@5.7.3)':
+  '@stylistic/eslint-plugin@4.0.0(eslint@9.20.1)(typescript@5.7.3)':
     dependencies:
       '@typescript-eslint/utils': 8.24.1(eslint@9.20.1)(typescript@5.7.3)
       eslint: 9.20.1
@@ -4037,10 +4037,10 @@ snapshots:
 
   flat-cache@4.0.1:
     dependencies:
-      flatted: 3.3.2
+      flatted: 3.3.3
       keyv: 4.5.4
 
-  flatted@3.3.2: {}
+  flatted@3.3.3: {}
 
   for-each@0.3.5:
     dependencies:
@@ -4635,11 +4635,11 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  preact-render-to-string@6.5.13(preact@10.26.0):
+  preact-render-to-string@6.5.13(preact@10.26.2):
     dependencies:
-      preact: 10.26.0
+      preact: 10.26.2
 
-  preact@10.26.0: {}
+  preact@10.26.2: {}
 
   prelude-ls@1.2.1: {}
 
@@ -4690,15 +4690,15 @@ snapshots:
 
   react-refresh@0.14.2: {}
 
-  react-router@7.1.5(@preact/compat@18.3.1(preact@10.26.0))(@preact/compat@18.3.1(preact@10.26.0)):
+  react-router@7.1.5(@preact/compat@18.3.1(preact@10.26.2))(@preact/compat@18.3.1(preact@10.26.2)):
     dependencies:
       '@types/cookie': 0.6.0
       cookie: 1.0.2
-      react: '@preact/compat@18.3.1(preact@10.26.0)'
+      react: '@preact/compat@18.3.1(preact@10.26.2)'
       set-cookie-parser: 2.7.1
       turbo-stream: 2.4.0
     optionalDependencies:
-      react-dom: '@preact/compat@18.3.1(preact@10.26.0)'
+      react-dom: '@preact/compat@18.3.1(preact@10.26.2)'
 
   readable-stream@2.3.8:
     dependencies:
