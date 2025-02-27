@@ -14,7 +14,7 @@
   "dependencies": {
     "@react-router/node": "^7.2.0",
     "isbot": "^5.1.23",
-    "preact": "^10.26.2",
+    "preact": "^10.26.3",
     "preact-render-to-string": "^6.5.13",
     "react": "npm:@preact/compat@^18.3.1",
     "react-dom": "npm:@preact/compat@^18.3.1",
