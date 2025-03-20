@@ -12,28 +12,28 @@
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
-    "@react-router/node": "^7.3.0",
+    "@react-router/node": "^7.4.0",
     "isbot": "^5.1.25",
     "preact": "^10.26.4",
     "preact-render-to-string": "^6.5.13",
     "react": "npm:@preact/compat@^18.3.1",
     "react-dom": "npm:@preact/compat@^18.3.1",
-    "react-router": "^7.3.0"
+    "react-router": "^7.4.0"
   },
   "devDependencies": {
     "@eslint/compat": "^1.2.7",
     "@eslint/eslintrc": "^3.3.0",
     "@eslint/js": "^9.22.0",
     "@preact/preset-vite": "^2.10.1",
-    "@react-router/dev": "^7.3.0",
-    "@react-router/fs-routes": "^7.3.0",
+    "@react-router/dev": "^7.4.0",
+    "@react-router/fs-routes": "^7.4.0",
     "@rollup/plugin-alias": "^5.1.1",
     "@stylistic/eslint-plugin": "^4.2.0",
     "@stylistic/eslint-plugin-js": "^4.2.0",
     "@stylistic/eslint-plugin-jsx": "^4.2.0",
     "@stylistic/eslint-plugin-plus": "^4.2.0",
     "@stylistic/eslint-plugin-ts": "^4.2.0",
-    "@types/react": "^19.0.11",
+    "@types/react": "^19.0.12",
     "@types/react-dom": "^19.0.4",
     "eslint": "^9.22.0",
     "eslint-import-resolver-typescript": "^4.2.2",
@@ -51,5 +51,5 @@
   "engines": {
     "node": ">=22.0.0"
   },
-  "packageManager": "pnpm@10.6.3+sha512.bb45e34d50a9a76e858a95837301bfb6bd6d35aea2c5d52094fa497a467c43f5c440103ce2511e9e0a2f89c3d6071baac3358fc68ac6fb75e2ceb3d2736065e6"
+  "packageManager": "pnpm@10.6.5+sha512.cdf928fca20832cd59ec53826492b7dc25dc524d4370b6b4adbf65803d32efaa6c1c88147c0ae4e8d579a6c9eec715757b50d4fa35eea179d868eada4ed043af"
 }
