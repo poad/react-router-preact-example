@@ -41,13 +41,13 @@ importers:
         version: 9.24.0
       '@preact/preset-vite':
         specifier: ^2.10.1
-        version: 2.10.1(@babel/core@7.26.10)(preact@10.26.5)(vite@6.2.6(@types/node@22.10.7)(yaml@2.7.0))
+        version: 2.10.1(@babel/core@7.26.10)(preact@10.26.5)(vite@6.3.0(@types/node@22.10.7)(yaml@2.7.0))
       '@react-router/dev':
         specifier: ^7.5.0
-        version: 7.5.0(@types/node@22.10.7)(react-router@7.5.0(@preact/compat@18.3.1(preact@10.26.5))(@preact/compat@18.3.1(preact@10.26.5)))(typescript@5.8.3)(vite@6.2.6(@types/node@22.10.7)(yaml@2.7.0))(yaml@2.7.0)
+        version: 7.5.0(@types/node@22.10.7)(react-router@7.5.0(@preact/compat@18.3.1(preact@10.26.5))(@preact/compat@18.3.1(preact@10.26.5)))(typescript@5.8.3)(vite@6.3.0(@types/node@22.10.7)(yaml@2.7.0))(yaml@2.7.0)
       '@react-router/fs-routes':
         specifier: ^7.5.0
-        version: 7.5.0(@react-router/dev@7.5.0(@types/node@22.10.7)(react-router@7.5.0(@preact/compat@18.3.1(preact@10.26.5))(@preact/compat@18.3.1(preact@10.26.5)))(typescript@5.8.3)(vite@6.2.6(@types/node@22.10.7)(yaml@2.7.0))(yaml@2.7.0))(typescript@5.8.3)
+        version: 7.5.0(@react-router/dev@7.5.0(@types/node@22.10.7)(react-router@7.5.0(@preact/compat@18.3.1(preact@10.26.5))(@preact/compat@18.3.1(preact@10.26.5)))(typescript@5.8.3)(vite@6.3.0(@types/node@22.10.7)(yaml@2.7.0))(yaml@2.7.0))(typescript@5.8.3)
       '@rollup/plugin-alias':
         specifier: ^5.1.1
         version: 5.1.1(rollup@4.40.0)
@@ -103,11 +103,11 @@ importers:
         specifier: ^8.30.1
         version: 8.30.1(eslint@9.24.0)(typescript@5.8.3)
       vite:
-        specifier: ^6.2.6
-        version: 6.2.6(@types/node@22.10.7)(yaml@2.7.0)
+        specifier: ^6.3.0
+        version: 6.3.0(@types/node@22.10.7)(yaml@2.7.0)
       vite-tsconfig-paths:
         specifier: ^5.1.4
-        version: 5.1.4(typescript@5.8.3)(vite@6.2.6(@types/node@22.10.7)(yaml@2.7.0))
+        version: 5.1.4(typescript@5.8.3)(vite@6.3.0(@types/node@22.10.7)(yaml@2.7.0))
 
 packages:
 
@@ -258,14 +258,14 @@ packages:
     resolution: {integrity: sha512-H45s8fVLYjbhFH62dIJ3WtmJ6RSPt/3DRO0ZcT2SUiYiQyz3BLVb9ADEnLl91m74aQPS3AzzeajZHYOalWe3bg==}
     engines: {node: '>=6.9.0'}
 
-  '@emnapi/core@1.4.1':
-    resolution: {integrity: sha512-4JFstCTaToCFrPqrGzgkF8N2NHjtsaY4uRh6brZQ5L9e4wbMieX8oDT8N7qfVFTQecHFEtkj4ve49VIZ3mKVqw==}
+  '@emnapi/core@1.4.3':
+    resolution: {integrity: sha512-4m62DuCE07lw01soJwPiBGC0nAww0Q+RY70VZ+n49yDIO13yyinhbWCeNnaob0lakDtWQzSdtNWzJeOJt2ma+g==}
 
-  '@emnapi/runtime@1.4.1':
-    resolution: {integrity: sha512-LMshMVP0ZhACNjQNYXiU1iZJ6QCcv0lUdPDPugqGvCGXt5xtRVBPdtA0qU12pEXZzpWAhWlZYptfdAFq10DOVQ==}
+  '@emnapi/runtime@1.4.3':
+    resolution: {integrity: sha512-pBPWdu6MLKROBX05wSNKcNb++m5Er+KQ9QkB+WVM+pW2Kx9hoSrVTnu3BdkI5eBLZoKu/J6mW/B6i6bJB2ytXQ==}
 
-  '@emnapi/wasi-threads@1.0.1':
-    resolution: {integrity: sha512-iIBu7mwkq4UQGeMEM8bLwNK962nXdhodeScX4slfQnRhEMMzvYivHhutCIk8uojvmASXXPC2WNEjwxFWk72Oqw==}
+  '@emnapi/wasi-threads@1.0.2':
+    resolution: {integrity: sha512-5n3nTJblwRi8LlXkJ9eBzu+kZR8Yxcc7ubakyQTFzPMtIhFpUBRbsnc2Dv88IZDIbCDlBiWrknhB4Lsz7mg6BA==}
 
   '@esbuild/aix-ppc64@0.25.2':
     resolution: {integrity: sha512-wCIboOL2yXZym2cgm6mlA742s9QeJ8DjGVaL39dLN4rRwrOgOyYSnOaFPhKZGLb2ngj4EyfAFjsNJwPXZvseag==}
@@ -417,8 +417,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@eslint-community/eslint-utils@4.6.0':
-    resolution: {integrity: sha512-WhCn7Z7TauhBtmzhvKpoQs0Wwb/kBcy4CwpuI0/eEIr2Lx2auxmulAzLr91wVZJaz47iUZdkXOK7WlAfxGKCnA==}
+  '@eslint-community/eslint-utils@4.6.1':
+    resolution: {integrity: sha512-KTsJMmobmbrFLe3LDh0PC2FXpcSYJt/MLjlkh/9LEnmKYLSYmT/0EW9JWANjeoemiuZrmogti0tW5Ch+qNUYDw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
@@ -513,8 +513,8 @@ packages:
   '@mjackson/node-fetch-server@0.2.0':
     resolution: {integrity: sha512-EMlH1e30yzmTpGLQjlFmaDAjyOeZhng1/XCd7DExR8PNAnG/G1tyruZxEoUe11ClnwGhGrtsdnyyUx1frSzjng==}
 
-  '@napi-rs/wasm-runtime@0.2.8':
-    resolution: {integrity: sha512-OBlgKdX7gin7OIq4fadsjpg+cp2ZphvAIKucHsNfTdJiqdOmOEwQd/bHi0VwNrcw5xpBJyUw6cK/QilCqy1BSg==}
+  '@napi-rs/wasm-runtime@0.2.9':
+    resolution: {integrity: sha512-OKRBiajrrxB9ATokgEQoG87Z25c67pCpYcCwmXYX8PBftC9pBfN18gnm/fh1wurSLEKIAt+QRFLFCQISrb66Jg==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -1078,8 +1078,8 @@ packages:
     resolution: {integrity: sha512-xlx1yCK2Oc1APsPXDL2LdlNP6+uu8OCDdhOBSVT279M/S+y75O30C2VuD8T2ogdePBBl7PfPF4504tnLgX3zfw==}
     engines: {node: '>=14.16'}
 
-  caniuse-lite@1.0.30001713:
-    resolution: {integrity: sha512-wCIWIg+A4Xr7NfhTuHdX+/FKh3+Op3LBbSp2N5Pfx6T/LhdQy3GTyoTg48BReaW/MyMNZAkTadsBtai3ldWK0Q==}
+  caniuse-lite@1.0.30001714:
+    resolution: {integrity: sha512-mtgapdwDLSSBnCI3JokHM7oEQBLxiJKVRtg10AxM1AyeiKcM96f0Mkbqeq+1AbiCtvMcHRulAAEMu693JrSWqg==}
 
   chalk-template@0.4.0:
     resolution: {integrity: sha512-/ghrgmhfY8RaSdeo43hNXxpoHAtxdbskUHjPpfqUWGttFgycUhYPGx3YZBCnUCvOa7Doivn1IZec3DEGFoMgLg==}
@@ -2486,8 +2486,8 @@ packages:
       vite:
         optional: true
 
-  vite@6.2.6:
-    resolution: {integrity: sha512-9xpjNl3kR4rVDZgPNdTL0/c6ao4km69a/2ihNQbcANz8RuCOK3hQBmLSJf3bRKVQjVMda+YvizNE8AwvogcPbw==}
+  vite@6.3.0:
+    resolution: {integrity: sha512-9aC0n4pr6hIbvi1YOpFjwQ+QOTGssvbJKoeYkuHHGWwlXfdxQlI8L2qNMo9awEEcCPSiS+5mJZk5jH1PAqoDeQ==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -2794,18 +2794,18 @@ snapshots:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
 
-  '@emnapi/core@1.4.1':
+  '@emnapi/core@1.4.3':
     dependencies:
-      '@emnapi/wasi-threads': 1.0.1
+      '@emnapi/wasi-threads': 1.0.2
       tslib: 2.8.1
     optional: true
 
-  '@emnapi/runtime@1.4.1':
+  '@emnapi/runtime@1.4.3':
     dependencies:
       tslib: 2.8.1
     optional: true
 
-  '@emnapi/wasi-threads@1.0.1':
+  '@emnapi/wasi-threads@1.0.2':
     dependencies:
       tslib: 2.8.1
     optional: true
@@ -2885,7 +2885,7 @@ snapshots:
   '@esbuild/win32-x64@0.25.2':
     optional: true
 
-  '@eslint-community/eslint-utils@4.6.0(eslint@9.24.0)':
+  '@eslint-community/eslint-utils@4.6.1(eslint@9.24.0)':
     dependencies:
       eslint: 9.24.0
       eslint-visitor-keys: 3.4.3
@@ -2978,10 +2978,10 @@ snapshots:
 
   '@mjackson/node-fetch-server@0.2.0': {}
 
-  '@napi-rs/wasm-runtime@0.2.8':
+  '@napi-rs/wasm-runtime@0.2.9':
     dependencies:
-      '@emnapi/core': 1.4.1
-      '@emnapi/runtime': 1.4.1
+      '@emnapi/core': 1.4.3
+      '@emnapi/runtime': 1.4.3
       '@tybys/wasm-util': 0.9.0
     optional: true
 
@@ -3033,17 +3033,17 @@ snapshots:
     dependencies:
       preact: 10.26.5
 
-  '@preact/preset-vite@2.10.1(@babel/core@7.26.10)(preact@10.26.5)(vite@6.2.6(@types/node@22.10.7)(yaml@2.7.0))':
+  '@preact/preset-vite@2.10.1(@babel/core@7.26.10)(preact@10.26.5)(vite@6.3.0(@types/node@22.10.7)(yaml@2.7.0))':
     dependencies:
       '@babel/core': 7.26.10
       '@babel/plugin-transform-react-jsx': 7.25.9(@babel/core@7.26.10)
       '@babel/plugin-transform-react-jsx-development': 7.25.9(@babel/core@7.26.10)
-      '@prefresh/vite': 2.4.7(preact@10.26.5)(vite@6.2.6(@types/node@22.10.7)(yaml@2.7.0))
+      '@prefresh/vite': 2.4.7(preact@10.26.5)(vite@6.3.0(@types/node@22.10.7)(yaml@2.7.0))
       '@rollup/pluginutils': 4.2.1
       babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.26.10)
       debug: 4.4.0
       kolorist: 1.8.0
-      vite: 6.2.6(@types/node@22.10.7)(yaml@2.7.0)
+      vite: 6.3.0(@types/node@22.10.7)(yaml@2.7.0)
       vite-prerender-plugin: 0.5.8
     transitivePeerDependencies:
       - preact
@@ -3057,7 +3057,7 @@ snapshots:
 
   '@prefresh/utils@1.2.0': {}
 
-  '@prefresh/vite@2.4.7(preact@10.26.5)(vite@6.2.6(@types/node@22.10.7)(yaml@2.7.0))':
+  '@prefresh/vite@2.4.7(preact@10.26.5)(vite@6.3.0(@types/node@22.10.7)(yaml@2.7.0))':
     dependencies:
       '@babel/core': 7.26.10
       '@prefresh/babel-plugin': 0.5.1
@@ -3065,11 +3065,11 @@ snapshots:
       '@prefresh/utils': 1.2.0
       '@rollup/pluginutils': 4.2.1
       preact: 10.26.5
-      vite: 6.2.6(@types/node@22.10.7)(yaml@2.7.0)
+      vite: 6.3.0(@types/node@22.10.7)(yaml@2.7.0)
     transitivePeerDependencies:
       - supports-color
 
-  '@react-router/dev@7.5.0(@types/node@22.10.7)(react-router@7.5.0(@preact/compat@18.3.1(preact@10.26.5))(@preact/compat@18.3.1(preact@10.26.5)))(typescript@5.8.3)(vite@6.2.6(@types/node@22.10.7)(yaml@2.7.0))(yaml@2.7.0)':
+  '@react-router/dev@7.5.0(@types/node@22.10.7)(react-router@7.5.0(@preact/compat@18.3.1(preact@10.26.5))(@preact/compat@18.3.1(preact@10.26.5)))(typescript@5.8.3)(vite@6.3.0(@types/node@22.10.7)(yaml@2.7.0))(yaml@2.7.0)':
     dependencies:
       '@babel/core': 7.26.10
       '@babel/generator': 7.27.0
@@ -3098,7 +3098,7 @@ snapshots:
       semver: 7.7.1
       set-cookie-parser: 2.7.1
       valibot: 0.41.0(typescript@5.8.3)
-      vite: 6.2.6(@types/node@22.10.7)(yaml@2.7.0)
+      vite: 6.3.0(@types/node@22.10.7)(yaml@2.7.0)
       vite-node: 3.0.0-beta.2(@types/node@22.10.7)(yaml@2.7.0)
     optionalDependencies:
       typescript: 5.8.3
@@ -3118,9 +3118,9 @@ snapshots:
       - tsx
       - yaml
 
-  '@react-router/fs-routes@7.5.0(@react-router/dev@7.5.0(@types/node@22.10.7)(react-router@7.5.0(@preact/compat@18.3.1(preact@10.26.5))(@preact/compat@18.3.1(preact@10.26.5)))(typescript@5.8.3)(vite@6.2.6(@types/node@22.10.7)(yaml@2.7.0))(yaml@2.7.0))(typescript@5.8.3)':
+  '@react-router/fs-routes@7.5.0(@react-router/dev@7.5.0(@types/node@22.10.7)(react-router@7.5.0(@preact/compat@18.3.1(preact@10.26.5))(@preact/compat@18.3.1(preact@10.26.5)))(typescript@5.8.3)(vite@6.3.0(@types/node@22.10.7)(yaml@2.7.0))(yaml@2.7.0))(typescript@5.8.3)':
     dependencies:
-      '@react-router/dev': 7.5.0(@types/node@22.10.7)(react-router@7.5.0(@preact/compat@18.3.1(preact@10.26.5))(@preact/compat@18.3.1(preact@10.26.5)))(typescript@5.8.3)(vite@6.2.6(@types/node@22.10.7)(yaml@2.7.0))(yaml@2.7.0)
+      '@react-router/dev': 7.5.0(@types/node@22.10.7)(react-router@7.5.0(@preact/compat@18.3.1(preact@10.26.5))(@preact/compat@18.3.1(preact@10.26.5)))(typescript@5.8.3)(vite@6.3.0(@types/node@22.10.7)(yaml@2.7.0))(yaml@2.7.0)
       minimatch: 9.0.5
     optionalDependencies:
       typescript: 5.8.3
@@ -3337,7 +3337,7 @@ snapshots:
 
   '@typescript-eslint/utils@8.30.1(eslint@9.24.0)(typescript@5.8.3)':
     dependencies:
-      '@eslint-community/eslint-utils': 4.6.0(eslint@9.24.0)
+      '@eslint-community/eslint-utils': 4.6.1(eslint@9.24.0)
       '@typescript-eslint/scope-manager': 8.30.1
       '@typescript-eslint/types': 8.30.1
       '@typescript-eslint/typescript-estree': 8.30.1(typescript@5.8.3)
@@ -3389,7 +3389,7 @@ snapshots:
 
   '@unrs/resolver-binding-wasm32-wasi@1.5.0':
     dependencies:
-      '@napi-rs/wasm-runtime': 0.2.8
+      '@napi-rs/wasm-runtime': 0.2.9
     optional: true
 
   '@unrs/resolver-binding-win32-arm64-msvc@1.5.0':
@@ -3570,7 +3570,7 @@ snapshots:
 
   browserslist@4.24.4:
     dependencies:
-      caniuse-lite: 1.0.30001713
+      caniuse-lite: 1.0.30001714
       electron-to-chromium: 1.5.137
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.24.4)
@@ -3602,7 +3602,7 @@ snapshots:
 
   camelcase@7.0.1: {}
 
-  caniuse-lite@1.0.30001713: {}
+  caniuse-lite@1.0.30001714: {}
 
   chalk-template@0.4.0:
     dependencies:
@@ -4015,7 +4015,7 @@ snapshots:
 
   eslint@9.24.0:
     dependencies:
-      '@eslint-community/eslint-utils': 4.6.0(eslint@9.24.0)
+      '@eslint-community/eslint-utils': 4.6.1(eslint@9.24.0)
       '@eslint-community/regexpp': 4.12.1
       '@eslint/config-array': 0.20.0
       '@eslint/config-helpers': 0.2.1
@@ -5210,7 +5210,7 @@ snapshots:
       debug: 4.4.0
       es-module-lexer: 1.6.0
       pathe: 1.1.2
-      vite: 6.2.6(@types/node@22.10.7)(yaml@2.7.0)
+      vite: 6.3.0(@types/node@22.10.7)(yaml@2.7.0)
     transitivePeerDependencies:
       - '@types/node'
       - jiti
@@ -5234,22 +5234,25 @@ snapshots:
       source-map: 0.7.4
       stack-trace: 1.0.0-pre2
 
-  vite-tsconfig-paths@5.1.4(typescript@5.8.3)(vite@6.2.6(@types/node@22.10.7)(yaml@2.7.0)):
+  vite-tsconfig-paths@5.1.4(typescript@5.8.3)(vite@6.3.0(@types/node@22.10.7)(yaml@2.7.0)):
     dependencies:
       debug: 4.4.0
       globrex: 0.1.2
       tsconfck: 3.1.5(typescript@5.8.3)
     optionalDependencies:
-      vite: 6.2.6(@types/node@22.10.7)(yaml@2.7.0)
+      vite: 6.3.0(@types/node@22.10.7)(yaml@2.7.0)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@6.2.6(@types/node@22.10.7)(yaml@2.7.0):
+  vite@6.3.0(@types/node@22.10.7)(yaml@2.7.0):
     dependencies:
       esbuild: 0.25.2
+      fdir: 6.4.3(picomatch@4.0.2)
+      picomatch: 4.0.2
       postcss: 8.5.3
       rollup: 4.40.0
+      tinyglobby: 0.2.12
     optionalDependencies:
       '@types/node': 22.10.7
       fsevents: 2.3.3
